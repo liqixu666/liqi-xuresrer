@@ -19,3 +19,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Scanner in = new Scanner(System.in);
+String varableQ[] = new String[5];
+String varableA[] = new String[5];
+varableQ[0] = "What is your name?";
+varableQ[1] = "Where are you?";
+varableQ[2] = "How old are you?";
+varableQ[3] = "What is your email address?";
+varableQ[4] = "What is your ID Number?";
+int i = 0;
+while(i<5){
+  system.out.print(varableQ[i]);
+  varableA[i] = in.nextLine();
+}
+for(i=0;i<5;i++){
+    system.out.print(varableA(i));
+}
+
